@@ -1,0 +1,44 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	Map map = new LinkedHashMap();
+	
+		System.out.println(map);
+			map.put("id",new Integer(101));
+			map.put("name","rashmi");
+			map.put("phone",new Long(987654433));
+			map.put("vaild",new Boolean(true));
+			System.out.println(map);
+			System.out.println(map.containsKey("name"));// true
+			System.out.println(map.containsKey("phone"));// true
+			System.out.println(map.containsKey("vaild"));// true
+			System.out.println(map.containsValue(new Integer(101)));// true
+			System.out.println(map.containsValue("rashmi"));// true
+			System.out.println(map.containsValue("kumar"));// flase
+			
+			
+				
+				
+		
+	}
+}
+  
+
+  //  output
+  {id=101, name=rashmi, phone=987654433, vaild=true}                                                                      
+true                                                                                                                    
+true                                                                                                                    
+true                                                                                                                    
+true                                                                                                                    
+true                                                                                                                    
+false  

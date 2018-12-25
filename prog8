@@ -1,0 +1,53 @@
+Tree Map example
+
+/******************************************************************************
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	Map map = new TreeMap();
+	
+		System.out.println("Tree map");
+			map.put("id",new Integer(101));
+			map.put("name","rashmi");
+			map.put("address","blr");
+			map.put("phone",new Long(987654433));
+			map.put("cid1",new Integer(100));
+			map.put("vaild",new Boolean(true));
+			//System.out.println(map);
+			//System.out.println(map.remove("id"));
+			
+		//	System.out.println("keys and values");
+			
+			
+			Set data =map.entrySet();
+			Iterator it =data.iterator();
+			while(it.hasNext())
+			{
+			    
+			   System.out.println(it.next()); 
+			    
+			}
+			
+		
+			    
+			}
+
+		
+}	
+
+output:
+
+Tree map                                                                                                                
+address=blr                                                                                                             
+cid1=100                                                                                                                
+id=101                                                                                                                  
+name=rashmi                                                                                                             
+phone=987654433                                                                                                         
+vaild=true
+				
+		
+	
